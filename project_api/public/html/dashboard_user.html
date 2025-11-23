@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Dashboard User</h2>
+    <p>Selamat datang, User!</p>
+    <form action="/user/create-api" method="POST">
+      <input type="hidden" name="userId" value="1">
+      <button type="submit">Create API Key</button>
+    </form>
+  </div>
+</body>
+</html>
